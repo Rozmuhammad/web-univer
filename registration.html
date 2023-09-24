@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in account</title>
+    <link rel="stylesheet" href="registartion.css">
+</head>
+
+<body>
+    <section class="main-section">
+        <div class="conteiner-main">
+            <div class="conteiner">
+                <div class="backgorund-main">
+                    <div class="main-content">
+                        <div class="main">
+                            <div class="main-inner">
+                                <div class="main-inner-pad">
+                                    <h1>Создание почтового ящика</h1>
+                                    <div class="main-name">
+                                        <div class="main-fname-div">
+                                            <label for="fname" class="main-fname">Имя</label>
+                                            <div>
+                                                <input type="text" class="fname" name="f" placeholder="name"></input>
+                                            </div>
+                                        </div>
+                                        <div class="main-lname-div">
+                                            <label for="lname" class="main-lname">Фамилия</label>
+                                            <div>
+                                                <input type="text" class="lname" name="l" id="textInput-l"
+                                                    placeholder="last name"></input>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="main-birth">
+                                        <label class="birth" for="birth">Дата рождения</label>
+                                        <div class="main-birth-main">
+                                            <div class="main-birth-day">
+                                                <div class="main-dropdown">
+                                                    <select id="day">
+                                                        <option value="1">day</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="main-birth-month">
+                                                <div class="main-dropdown-2">
+                                                    <select id="month">
+                                                        <option value="1">month</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="main-birth-year">
+                                                <div class="main-dropdown-3">
+                                                    <select id="year">
+                                                        <option value="1">year</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="main-birth-all">
+                                            <div class="main-birth-date">
+                                                <input type="date" id="date">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="main-gender">
+                                        <label for="gender">Пол</label>
+                                        <div class="main-gender-main">
+                                            <div class="main-gender-gen-man">
+                                                <input type="radio" id="man">Мужской
+                                            </div>
+                                            <div class="main-gender-gen-girl">
+                                                <input type="checkbox" id="girl">Женский
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="main-mail">
+                                        <label for="mail">Имя ящика</label>
+                                        <div class="main-mail-index">
+                                            <div class="main-mail-text">
+                                                <input class="main-mail-text-email" type="email" id="emailName"
+                                                    placeholder="ex@mple.com">
+                                            </div>
+                                            <div class="main-mail-email">
+                                                <select id="emailDomain">
+                                                    <option value="mail.ru">@mail.ru</option>
+                                                    <option value="gmail.com">@gmail.com</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="main-password">
+                                        <label for="password">Пароль</label>
+                                        <div class="main-password-main">
+                                            <div class="main-password-generate">
+                                                <input type="password" class="main-password-generate-input" name="p"
+                                                    id="textInput-p" placeholder="password"></input>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="main-number">
+                                        <label for="number">Номер телефона</label>
+                                        <div class="main-number-main">
+                                            <div class="main-number-generate">
+                                                <input class="main-number-generate-input" type="tel" maxlength="11"
+                                                    placeholder="format 81234567890">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="main-end">
+                                        <div class="main-end-main">
+                                            <div class="main-end-generate">
+                                                <form action="login.html">
+                                                    <button type="submit" class="main-end-button" name="x">
+                                                        Регистрация
+                                                    </button>
+                                                </form>
+                                                <button type="button" class="main-end-button">
+                                                    Показать
+                                                </button>
+                                                <div class="main-end-text">
+                                                    <p>Нажимая «Создать», вы принимаете следующие <a class="reg-href"
+                                                            href="#">Условия использования</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="sign.js"></script>
+</body>
+
+</html>

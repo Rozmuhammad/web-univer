@@ -1,0 +1,308 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    margin-right: 40px;
+    height: 3px;
+    margin-top: 11px;
+}
+
+header {
+    margin: 0;
+    width: 100%;
+}
+
+.welcome {
+    height: 190px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.header-img a {
+    height: 60px;
+    width: 147px;
+    padding: 0;
+}
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0 14px 0;
+}
+
+.header-bg {
+    /* border-bottom: 1px rgba(255, 25, 25, 0.3) solid; */
+    margin: 0;
+    width: 100%;
+    height: 106.8px;
+}
+
+.header-img {
+    padding: 5px 0 0 10px;
+}
+
+.header-links {
+    display: flex;
+    height: 76px;
+    padding: 15px 0 0 0;
+}
+
+.header-links a {
+    color: rgb(225, 199, 199);
+    position: relative;
+    font-size: 14px;
+    letter-spacing: 2px;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+    align-self: self-end;
+    height: unset;
+}
+
+.a1 {
+    display: flex;
+    flex-direction: column;
+}
+#a1:hover {
+    opacity: 0.4;
+}
+.a2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.a2 .animation-a2 {
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-name: portfolio-a2;
+}
+
+#a2:hover {
+    opacity: 0.4;
+}
+
+.a2 .animation-a2-re {
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-name: portfolio-a2-re;
+}
+
+.a3 {
+    display: flex;
+    flex-direction: column;
+}
+.a3 .animation-a3 {
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-name: portfolio-a3;
+}
+
+#a3:hover {
+    opacity: 0.4;
+}
+
+.a3 .animation-a3-re {
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-name: portfolio-a3-re;
+}
+
+.a4 {
+    display: flex;
+    flex-direction: column;
+}
+.a4 .animation-a4 {
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-name: portfolio-a4;
+}
+
+#a4:hover {
+    opacity: 0.4;
+}
+
+.a4 .animation-a4-re {
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-name: portfolio-a4-re;
+}
+
+.a5 {
+    display: flex;
+    flex-direction: column;
+}
+.a5 .animation-a5 {
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-name: portfolio-a5;
+}
+#a5:hover {
+    opacity: 0.4;
+}
+
+.a5 .animation-a5-re {
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    animation-name: portfolio-a5-re;
+}
+
+.par {
+    width: 500px;
+    font-size: 18px;
+    color: rgb(225, 199, 199);
+    padding-top: 50px;
+}
+.par:hover{
+    color: blueviolet;
+    opacity: 0.5;
+}
+
+.background {
+    overflow: hidden;
+    position: relative;
+}
+
+.index-bg {
+    left: 0;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    background: url("dark-work.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.zero {
+    width: auto;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.zero-content {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.zero-content td,th {
+    text-align: center;
+    width: 12.5%;
+    letter-spacing: 1px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    cursor: context-menu;
+}
+.zero-content tr,tr{
+    display: block;
+    border-bottom: 0.5px rgb(114, 114, 114) solid;
+    color: white;
+}
+
+.zero-content td:hover {
+    animation-name: content-h5;
+}
+.zero-content th:hover {
+    animation-name: content-h5;
+}
+
+
+
+.td-bg{
+    background-color: #d7aaf7!important;
+    border-radius: 15px;
+}
+@keyframes content-h5 {
+    0% {
+        letter-spacing: 1px;
+    }
+
+    100% {
+        letter-spacing: 1.5px;
+        color: rgb(71, 71, 71);
+    }
+}
+@media only screen and (max-width: 1150px) {
+    
+    .zero-content {
+        justify-content: center;
+    }
+    .zero-block-1 {
+        margin: 0 10px 0 10px;
+    }
+    .clear{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width: 1035px) {
+    .zero-img img {
+        height: 190px;
+    }
+}
+@media only screen and (max-width: 990px) {
+    .zero-img img {
+        height: 180px;
+    }
+}
+@media only screen and (max-width: 950px) {
+    #a5 {
+        display: none;
+    }
+    .main-img img {
+        height: 200px;
+    }
+    .zero-img img {
+        height: 170px;
+    }
+}
+@media only screen and (max-width: 795px) {
+    .main-img img {
+        height: 150px;
+    }
+    /* .animated-hover{
+        display: block;
+        opacity: 1;
+    }
+    .portfolio-hover{
+        display: block;
+        opacity: 1; 
+    }
+    .school-hover{
+        display: block;
+        opacity: 1;
+    }
+    .careers-hover{
+        display: block;
+        opacity: 1;
+    } */
+    .header-links {
+        display: grid;
+        grid-template-areas:
+            "a1 a2"
+            "a3 a4";
+    }
+    .a1 {
+        grid-area: a1;
+    }
+    .a2 {
+        grid-area: a2;
+    }
+    .a3 {
+        grid-area: a3;
+    }
+    .a4 {
+        grid-area: a4;
+    }
+}

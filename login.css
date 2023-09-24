@@ -1,0 +1,59 @@
+body {
+    margin: 10px 0 0 0;
+    font:
+        13px/16px "Open Sans",
+        sans-serif,
+        "Arimo",
+        sans-serif;
+}
+
+.index {
+    display: flex;
+    justify-content: center;
+}
+.content-box {
+    width: auto;
+    height: auto;
+    padding: 5px 20px 20px 20px;
+    border: rgb(226, 224, 224) 1px solid;
+    border-radius: 10px;
+}
+.main-box {
+    display: flex;
+    margin: 10px;
+}
+.email-box {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.email-box p {
+    margin: 0 0 5px 0;
+}
+.e-input {
+    border: 1px rgb(226, 224, 224) solid;
+    border-radius: 5px;
+    height: 22px;
+}
+
+.password-box {
+    display: flex;
+    flex-direction: column;
+}
+.password-box p {
+    margin: 0 0 5px 0;
+}
+.p-input {
+    height: 22px;
+    border: 1px rgb(226, 224, 224) solid;
+    border-radius: 5px;
+}
+button {
+    width: 369px;
+    height: 40px;
+    border-radius: 5px 0 5px 0;
+    background-color: #005ff9;
+    color: #ffffff;
+    border: unset;
+    margin-top: 20px;
+}

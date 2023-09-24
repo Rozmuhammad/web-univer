@@ -1,0 +1,152 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 10px 0 0 0;
+    font:
+        13px/16px "Open Sans",
+        sans-serif,
+        "Arimo",
+        sans-serif;
+}
+
+.conteiner-main {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.main-inner {
+    width: 420px;
+    height: 650px;
+    border: rgb(226, 224, 224) 1px solid;
+    border-radius: 15px;
+    margin-right: 25px;
+    margin-left: 20px;
+}
+.main-inner-pad {
+    padding: 30px;
+}
+
+.main-inner-pad h1 {
+    margin-top: 0;
+    font-size: 24px;
+    font-family: sans-serif, Arial;
+}
+
+.main-name {
+    display: flex;
+}
+.main-fname-div {
+    margin-right: 10px;
+}
+.fname {
+    width: 155px;
+    padding: 11px;
+    border-radius: 5px;
+    border: 0.5px rgb(215, 215, 215) solid;
+}
+.lname {
+    width: 155px;
+    padding: 11px;
+    border-radius: 5px;
+    border: 0.5px rgb(215, 215, 215) solid;
+}
+.main-birth-main {
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+.main-birth {
+    margin: 15px 0 15px 0;
+}
+
+#day {
+    width: 65px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 0 20px 0 0;
+    padding-left: 5px;
+}
+#month {
+    width: 105px;
+    height: 25px;
+    border-radius: 5px;
+    margin: 0 20px 0 0;
+    padding-left: 5px;
+}
+#year {
+    width: 65px;
+    height: 25px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+#date{
+    height: 25px;
+    border: 0.5px solid rgb(120, 120, 120);
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.main-gender-main {
+    display: flex;
+}
+
+.main-mail {
+    margin: 15px 0 15px 0;
+}
+
+.main-mail-index {
+    display: flex;
+}
+.main-mail-email {
+    position: relative;
+    display: inline-block;
+}
+.main-mail-text-email {
+    height: 32px;
+    border-radius: 0 0 0 5px;
+    width: 255px;
+    border: 0.5px rgb(215, 215, 215) solid;
+}
+
+#emailDomain {
+    width: 100%;
+    height: 100%;
+    border: 0.5px rgb(215, 215, 215) solid;
+    border-radius: 0 5px 0 0;
+}
+#emailDomain option{
+    background-color: #005ff9;
+}
+
+.main-password-generate-input {
+    width: 362.5px;
+    border-radius: 5px 0 5px 0;
+    height: 32px;
+    border: 0.5px rgb(215, 215, 215) solid;
+}
+
+.main-number {
+    margin: 15px 0 15px 0;
+}
+
+.main-number-generate-input {
+    width: 362.5px;
+    border-radius: 0 5px 0 5px;
+    height: 32px;
+    border: 0.5px rgb(215, 215, 215) solid;
+}
+
+.main-end-button {
+    width: 369px;
+    height: 40px;
+    border-radius: 5px 0 5px 0;
+    background-color: #005ff9;
+    color: #ffffff;
+    border: unset;
+    margin-top: 20px;
+}
+.reg-href {
+    text-decoration: unset;
+}
