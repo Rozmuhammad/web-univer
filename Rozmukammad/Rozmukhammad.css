@@ -160,12 +160,12 @@ header {
 .par {
     width: 500px;
     font-size: 18px;
-    color: rgb(225, 199, 199);
-    padding-top: 50px;
+    color: rgb(1, 13, 140);
 }
 .par:hover{
-    color: blueviolet;
-    opacity: 0.5;
+    color: rgb(219, 204, 0);
+    opacity: 0.9;
+    
 }
 
 .background {

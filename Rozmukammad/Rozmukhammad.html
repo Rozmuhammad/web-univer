@@ -5,9 +5,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Rozmukhammad.css">
     <link rel="icon" href="/image/genshin-impact.jpg">
     <title>TRIAL</title>
+
+    <style>
+        table th {
+            color: #00ffff;
+        }
+
+        table th:hover {
+            color: #ff0000;
+        }
+
+        .par {
+            display: flex;
+            margin: 0;
+            padding: 15px;
+            align-items: center;
+            width: 500px;
+            height: 250px;
+            background-color: #7fffd4;
+            border: 2px solid #a10000;
+            border-radius: 25px;
+        }
+
+        .loupe-cont {
+            position: relative;
+        }
+
+        .element {
+            transition: transform 0.3s ease;
+        }
+
+        .loupe-cont:hover .element {
+            transform: scale(1.2);
+        }
+
+
+        .header-img a>img:hover {
+            width: 90px;
+            height: 90px;
+        }
+
+        tr+td {
+            color: #00ffff;
+        }
+
+        th,
+        td {
+            font-family: 'Pixelify Sans', cursive;
+        }
+
+        th:nth-child(even) {
+            background-color: #141414;
+        }
+
+        td:nth-child(odd) {
+            background-color: #a10000;
+        }
+
+        .zero-content::before {
+            content: '';
+            width: 700px;
+            height: 1px;
+            background-color: #ff0000;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -21,7 +87,7 @@
                                 <div class="header-main">
                                     <div class="header-img">
                                         <a class="header-img-a" href="#">
-                                            <img class="header-img-y" src="dark-work.jpg" width="45px" height="45px"
+                                            <img class="header-img-y " src="dark-work.jpg" width="45px" height="45px"
                                                 alt="AYNA">
                                         </a>
                                     </div>
@@ -50,11 +116,18 @@
                             </header>
                         </div>
                     </div>
-                    <p class="par">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. In ut dolore praesentium esse iusto
-                        eum vitae consequuntur enim iste fuga. Odio, assumenda? Alias exercitationem labore velit magnam
-                        provident esse rerum?
-                    </p>
+                    <div class="loupe-cont" style="height: 100%;">
+                        <a href="/main-2.html">
+                            <p class="par element">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. In ut dolore praesentium esse
+                                iusto
+                                eum vitae consequuntur enim iste fuga. Odio, assumenda? Alias exercitationem labore
+                                velit
+                                magnam
+                                provident esse rerum?
+                            </p>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -106,7 +179,7 @@
                                 </table>
                             </div>
                             <div class="main-link">
-                                <fieldset>
+                                <fieldset style="margin-top: 100px;">
                                     <legend>
                                         <h5>Links</h5>
                                     </legend>
