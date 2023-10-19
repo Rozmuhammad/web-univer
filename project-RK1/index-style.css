@@ -1,0 +1,196 @@
+body {
+    font-family: "Playfair Display", serif;
+    margin: 0;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.6)
+    );
+}
+.container {
+    max-width: 1100px;
+    height: auto;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #0d1282;
+}
+
+.header-img {
+    width: 10%;
+}
+.header-img img {
+    width: 100%;
+}
+.header-link {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+}
+.header-link a {
+    color: #d71313;
+    margin-right: 35px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.main {
+    padding-bottom: 38px;
+}
+
+.main-car-shop {
+    display: flex;
+    padding: 220px 0;
+}
+.main-car-1 {
+    width: 32%;
+    height: 254px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.main-car-1-img {
+    height: 75%;
+}
+
+.main-car-1-img img {
+    width: 100%;
+    border-radius: 25px;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+.main-car-1-img img:hover {
+    opacity: 0;
+}
+
+
+.main-car-1-button {
+    height: 25%;
+}
+
+.main-car-2 {
+    width: 32%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 25px;
+}
+.main-car-2-img img {
+    width: 100%;
+    border-radius: 25px;
+}
+.main-car-3 {
+    width: 32%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 20px;
+}
+.main-car-3-img img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.player-1 {
+    background-color: #0d1282;
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.plyr__video-embed iframe {
+    width: 90%;
+    height: 90%;
+    top: 20px;
+    left: 75px;
+}
+.plyr--video {
+    width: 90%;
+    top: 20px;
+    left: 75px;
+}
+.plyr__video-wrapper {
+    background-color: unset;
+}
+.player-2 {
+    background-color: #0d1282;
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.player-3 {
+    background-color: #0d1282;
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.main-car-video-stop {
+    position: fixed;
+    top: 40px;
+    right: 20px;
+    z-index: 2;
+}
+.stop-video {
+    display: none;
+    font-size: 22px;
+    color: #eeeded;
+    background-color: unset;
+    border: #d71313 solid 1px;
+    border-radius: 10px;
+    padding-top: 2px;
+}
+
+.button {
+    display: flex;
+    width: 200px;
+    padding: 8px 12px;
+    margin-top: 20px;
+    margin-right: 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    border: 1px solid var(--Main-Blue, #0d6efd);
+    background: var(--Main-Blue, #0d6efd);
+    /* text */
+    color: var(--White, #fff);
+    text-align: center;
+    cursor: pointer;
+
+    /* Button Text */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    transition: 0.3s;
+}
+.button:hover {
+    font-size: 13px;
+    box-shadow:
+        rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}

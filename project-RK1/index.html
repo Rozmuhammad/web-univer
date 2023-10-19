@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index-sait</title>
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+    <link rel="stylesheet" href="index-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-main">
+                <div class="header-img">
+                    <a href="#">
+                        <img src="planetpng.png" alt="planet">
+                    </a>
+                </div>
+                <div class="header-link">
+                    <a href="second.html">BMW</a>
+                    <a href="third.html">URUS</a>
+                    <a href="fourth.html">ROLLS-ROYCE CULLINAN</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <div class="container">
+            <div class="main-block">
+                <div class="main-car-shop">
+                    <div class="main-car-1">
+                        <div class="main-car-1-img">
+                            <img class="post" src="https://i.ytimg.com/vi/NfnQ8gQlOIA/maxresdefault.jpg" alt="BMW">
+                        </div>
+                        <div class="main-car-video-1 player-1">
+                            <video id="player" playsinline controls>
+                                <source src="" type="video/mp4" />
+                            </video>
+                        </div>
+                        <div class="main-car-1-button">
+                            <button class="button button-1">MORE BMW-VIDEO</button>
+                        </div>
+                        <div class="main-car-video-stop">
+                            <button class="stop-video">X</button>
+                        </div>
+                    </div>
+                    <div class="main-car-2">
+                        <div class="main-car-2-img">
+                            <img src="https://i.ytimg.com/vi/NYlkgd8a4Uc/maxresdefault.jpg" alt="URUS">
+                        </div>
+                        <div class="main-car-2-button">
+                            <button class="button button-2" onclick="but2">MORE URUS-VIDEO</button>
+                        </div>
+                    </div>
+
+                    <div class="main-car-3">
+                        <div class="main-car-3-img">
+                            <img src="https://i.ytimg.com/vi/G8_6p08DpCk/maxresdefault.jpg" alt="RR">
+                        </div>
+                        <div class="main-car-3-button">
+                            <button class="button button-3" onclick="but3">MORE RR-VIDEO</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="https://www.youtube.com/iframe_api"></script>
+<script src="path/to/plyr.js"></script>
+<script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+<script src="js.js"></script>
+
+<script>
+    const hover = document.getElementsByClassName('main-car-1-img')[0];
+    const image = document.getElementsByClassName('post')[0];
+
+    hover.addEventListener("mouseover", () => {
+        if (image.src === "https://i.ytimg.com/vi/NfnQ8gQlOIA/maxresdefault.jpg") {
+            image.src = "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2023/my24/m-models/m8-coupe/overview/desktop/BMW-MY24-M8-Coupe-Overview-Performance-05-Desktop.jpg.bmwimg.xlarge.jpg"
+        } else {
+            image.src = "https://i.ytimg.com/vi/NfnQ8gQlOIA/maxresdefault.jpg";
+        }
+    })
+    hover.addEventListener("mouseout", () => {
+        if (image.src === "https://i.ytimg.com/vi/NfnQ8gQlOIA/maxresdefault.jpg") {
+            image.src = "https://www.bmwusa.com/content/dam/bmwusa/common/vehicles/2023/my24/m-models/m8-coupe/overview/desktop/BMW-MY24-M8-Coupe-Overview-Performance-05-Desktop.jpg.bmwimg.xlarge.jpg"
+        } else {
+            image.src = "https://i.ytimg.com/vi/NfnQ8gQlOIA/maxresdefault.jpg";
+        }
+    });
+</script>
+
+
+</html>
