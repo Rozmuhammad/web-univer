@@ -10,7 +10,7 @@ var element = document.getElementById("player");
 
 but1.addEventListener("click", () => {
   if (block1.style.display === "none" || block1.style.display === "") {
-    block1.style.display = "block";
+    block1.style.display = "flex";
     stop.style.display = "block";
     var element = document.getElementById("player");
     element.src = "BMW M8 Gran Coupe Venom - Wild M8 by Ramon Performance.mp4";
@@ -19,7 +19,7 @@ but1.addEventListener("click", () => {
 });
 but2.addEventListener("click", () => {
   if (block1.style.display === "none" || block1.style.display === "") {
-    block1.style.display = "block";
+    block1.style.display = "flex";
     stop.style.display = "block";
     var element = document.getElementById("player");
     element.src = "2021 Lamborghini Urus - Fastest SUV from MANSORY!.mp4";
@@ -28,7 +28,7 @@ but2.addEventListener("click", () => {
 });
 but3.addEventListener("click", () => {
   if (block1.style.display === "none" || block1.style.display === "") {
-    block1.style.display = "block";
+    block1.style.display = "flex";
     stop.style.display = "block";
     var element = document.getElementById("player");
     element.src =
@@ -38,7 +38,7 @@ but3.addEventListener("click", () => {
 });
 
 stop.addEventListener("click", () => {
-  if (block1.style.display === "block" || block1.style.display === "") {
+  if (block1.style.display === "flex" || block1.style.display === "") {
     if (element.src === "") {
     } else {
       element.src = "";
